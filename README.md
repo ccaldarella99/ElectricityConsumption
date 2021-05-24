@@ -17,7 +17,7 @@
 ## Problem Statement
 [back to top](#Project-4)
 
-Using data from EIA (US Energy Information Administration) are there any patterns in electricity usage in North Carolinia from 2001 through 2011, and can we use this data to make a predictive Time-Series Model?
+Using data from EIA (US Energy Information Administration) are there any patterns in electricity usage in North Carolina from 2001 through 2011, and can we use this data to make a predictive Time-Series Model?
 
 
 ## Executive Summary
