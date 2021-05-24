@@ -23,7 +23,7 @@ Using data from EIA (US Energy Information Administration) are there any pattern
 ## Executive Summary
 [back to top](#Project-4)
 
-Looking at Electrical usage...
+Looking at Electrical usage can we forcast future Electrical usage in North Caroline. I selected North Carolina becasue I was looking for a State that would be a good representation of all of the States, and North Carolina seemd to be the most average  through my research.
 
 
 
@@ -36,20 +36,23 @@ Looking at Electrical usage...
 |__ code<br />
 |&nbsp;&nbsp;&nbsp;&nbsp;|__ 00_table_of_contents.ipynb <br />
 |&nbsp;&nbsp;&nbsp;&nbsp;|__ 01_eda_and_cleaning.ipynb <br />
-|&nbsp;&nbsp;&nbsp;&nbsp;|__ 03_basic_models.ipynb <br />
-|&nbsp;&nbsp;&nbsp;&nbsp;|__ 04_models_with_gridsearch.ipynb <br />
-|&nbsp;&nbsp;&nbsp;&nbsp;|__ 05_models_without_body.ipynb <br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|__ 02_null_model.ipynb <br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|__ 03_time_series_models.ipynb <br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|__ 04_auto_regression.ipynb <br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|__ 05_analysis.ipynb <br />
 |&nbsp;&nbsp;&nbsp;&nbsp;|__ 06_conclusion.ipynb <br />
-|&nbsp;&nbsp;&nbsp;&nbsp;|__ functions.ipynb <br />
 |<br />
 |__ data <br />
 |&nbsp;&nbsp;&nbsp;&nbsp;|__ elec_mo_2001_2011_consumption.csv <br />
 |<br />
 |__ images <br />
-|&nbsp;&nbsp;&nbsp;&nbsp;|__ nothing.png <br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|__ electric_time_series_null_model.png <br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|__ electric_time_series_seasonal_forecast.png <br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|__ electricity_auto_regression_forecast.png <br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|__ electricity_test_forecast.png <br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|__ electricity_train_test_forecast.png <br />
 |<br />
 |__ presentation <br />
-|&nbsp;&nbsp;&nbsp;&nbsp;|__ ChrisCaldarella_project4_presentation.pdf <br />
 |&nbsp;&nbsp;&nbsp;&nbsp;|__ ChrisCaldarella_project4_presentation.pptx <br />
 |<br />
 |__ LICENSE <br />
@@ -76,13 +79,25 @@ I found some data about Electricity usage on [Data Is Plural — Structured Arch
 ## Conclusions and Recommendations
 [back to top](#Project-4)
 
-
+It appears that the Holt-Winters performed the best out of all the models, and fits best when looking at plots.
+​
+​
+SARIMAX did not do well, but the Seasonal model and the Auto-Regression Models seemed to do ok.
+​
+​
+| Model\Score     | RMSE    | MAE     |
+|---              |---      |---      |
+| Holt-Winters    | 3631847 | 2920368 |
+| Seasonal        | 4294624 | 3603229 |
+| Auto-Regression | 4414239 | 3663597 |
+| SARIMAX         | 4713245 | 3813522 |
+| Null Model      | 5359973 | 4164017 |
 
 
 ## Areas for Further Research/Study
 [back to top](#Project-4)
 
-
+We can expand this to other states in the United States.
 
 
 ## Sources
@@ -95,4 +110,9 @@ https://www.eia.gov/electricity/data/state/ <br/>
 ## Visualizations
 [back to top](#Project-4)
 
-### Null Model
+![](./images/electric_time_series_null_model.png)
+![](./images/electric_time_series_seasonal_forecast.png)
+![](./images/electricity_auto_regression_forecast.png)
+![](./images/electricity_train_test_forecast.png)
+![](./images/electricity_test_forecast.png)
+
