@@ -1,6 +1,8 @@
 # Project 4
 # *Hackathon*
+From 9:30 AM to 3:30 PM, find a tabular dataset and make a predictive model with it.
 
+[Hackathon rules](Hackathon_README.md)
 
 ## Contents
  - [Problem Statement](#Problem-Statement)
