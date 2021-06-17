@@ -1,8 +1,23 @@
-# Project 4
-# *Hackathon*
+# Electricity Consumption in North Carolina
+### About this Challenge
 From 9:30 AM to 3:30 PM, find a tabular dataset and make a predictive model with it.
 
-[Hackathon rules](Hackathon_README.md)
+[Guidelines to this challenge](Hackathon_README.md)
+
+### *Caveats*
+
+It is worth noting that  I selected North Carolina because North Carolina appears to be the most average State out of the whole United States, based on [this 2016 article from *Business Insider*](https://www.businessinsider.com/average-state-ranking-2016-10#1-north-carolina-51). 
+
+Since completing this Challenge, I have only made the following minor changes:
+ - Added a PDF version of my unmodified Presentation-Deck (so it can be viewed without download)
+ - Added the guidelines for this challenge (see link above)
+ - Added this section to this ReadMe
+ - Made some minor spelling corrections to this ReadMe
+ - Changed the Title of this document to be more descriptive.
+ 
+#### *The rest of this work was completed in about 6 hours.*
+
+
 
 ## Contents
  - [Problem Statement](#Problem-Statement)
@@ -25,7 +40,7 @@ Using data from EIA (US Energy Information Administration) are there any pattern
 ## Executive Summary
 [back to top](#Project-4)
 
-Looking at Electrical usage can we forcast future Electrical usage in North Caroline. I selected North Carolina becasue I was looking for a State that would be a good representation of all of the States, and North Carolina seemd to be the most average  through my research.
+Looking at Electrical usage can we forcast future Electrical usage in North Carolina. I selected North Carolina becasue I was looking for a State that would be a good representation of all of the States, and North Carolina seemd to be the most average through my research.
 
 
 
@@ -56,6 +71,7 @@ Looking at Electrical usage can we forcast future Electrical usage in North Caro
 |<br />
 |__ presentation <br />
 |&nbsp;&nbsp;&nbsp;&nbsp;|__ ChrisCaldarella_project4_presentation.pptx <br />
+|&nbsp;&nbsp;&nbsp;&nbsp;|__ ChrisCaldarella_project4_presentation.pdf <br />
 |<br />
 |__ LICENSE <br />
 |__ README.md <br />
